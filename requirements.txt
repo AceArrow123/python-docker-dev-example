@@ -1,3 +1,5 @@
+pip install fastapi uvicorn psycopg sqlmodel pydantic python-dotenv rich mypy pre-commit ruff
+
 annotated-types==0.7.0
 anyio==4.9.0
 cfgv==3.4.0
