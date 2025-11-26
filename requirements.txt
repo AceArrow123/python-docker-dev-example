@@ -1,5 +1,9 @@
-pip install fastapi uvicorn psycopg sqlmodel pydantic python-dotenv rich mypy pre-commit ruff
-
+fastapi == 0.115.12
+uvicorn == 0.34.3
+SQLAlchemy == 2.0.41
+psycopg == 3.2.9
+sqlmodel == 0.0.24
+pydantic == 2.11.5
 annotated-types==0.7.0
 anyio==4.9.0
 cfgv==3.4.0
