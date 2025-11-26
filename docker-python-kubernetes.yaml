@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: cdiind123
+          image: cdiind123/python-docker-dev-example
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
