@@ -15,13 +15,13 @@ services:
     secrets:
       - db-password
   db:
-    image: postgres
+    image: postgres:17
     restart: always
     user: postgres
     secrets:
       - db-password
     volumes:
-      - db-data:/var/lib/postgresql
+      - db-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=example
       - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
